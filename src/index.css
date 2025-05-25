@@ -1,0 +1,339 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fa;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+input, select {
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.journey-list li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 5px solid #007bff;
+  border-radius: 4px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  button {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+.journey-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.journey-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.journey-message {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+}
+
+.journey-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.journey-table th,
+.journey-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.journey-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #444;
+}
+
+.journey-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.view-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.view-btn:hover {
+  background-color: #0056b3;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.pagination-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.pagination-btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.pagination-text {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Add this to your CSS file */
+.pagination-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .pagination-button {
+    padding: 6px;
+    font-size: 14px;
+     margin: 5px;
+  }
+
+  .pagination-text {
+  font-size: 12px;
+  color: #333;
+}
+}
+.journey-details {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.journey-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.journey-details h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+.journey-details p {
+  font-size: 1rem;
+  margin: 0.4rem 0;
+}
+
+.journey-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+.journey-details th,
+.journey-details td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.journey-details th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+  color: #333;
+}
+
+.journey-details tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.journey-details button {
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  background-color: #3498db;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.journey-details button:hover {
+  background-color: #2980b9;
+}
+/* Ensure consistent box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global style to prevent body overflow */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar-fullwidth {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navbar-logout-btn {
+  padding: 0.3rem 0.8rem;
+  background-color: #3c64e7;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.navbar-logout-btn:hover {
+  background-color: #2d2bc0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .navbar-title {
+    font-size: 1.5rem;
+  }
+
+  .navbar-logout-btn {
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    max-width: 80px;
+    min-width: auto;
+    text-align: center;
+  }
+
+  .navbar-container {
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
