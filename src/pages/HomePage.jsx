@@ -12,6 +12,7 @@ const HomePage = () => {
     navigate('/'); 
   };
 
+  
   return (
     <>
      <nav className="navbar-fullwidth">
