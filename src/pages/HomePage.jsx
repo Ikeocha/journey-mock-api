@@ -7,12 +7,12 @@ const HomePage = () => {
   const { logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
+
   const handleLogout = () => {
     logout();
     navigate('/'); 
   };
 
-  
   return (
     <>
      <nav className="navbar-fullwidth">
